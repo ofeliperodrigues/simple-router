@@ -1,0 +1,12 @@
+{
+    "name": "felipe/simple-router",
+    "description": "A simple router made following Laracast's PHP Practitioner course concepts",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Felipe Rodrigues de Oliveira",
+            "email": "feliperodrigues916@gmail.com"
+        }
+    ],
+    "require": {}
+}
