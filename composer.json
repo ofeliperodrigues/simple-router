@@ -8,5 +8,10 @@
             "email": "feliperodrigues916@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "."
+        ]
+    }
 }

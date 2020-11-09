@@ -13,6 +13,8 @@ class Router
     private static array $routes = [
         'GET' => [],
         'POST' => [],
+        'DELETE' => [],
+        'PATCH' => [],
     ];
 
     public static function init($routesFile)
@@ -29,6 +31,16 @@ class Router
     public static function post(string $uri, string $controller)
     {
         self::$routes['POST'][$uri] = $controller;
+    }
+
+    public static function delete(string $uri, string $controller)
+    {
+        self::$routes['DELETE'][$uri] = $controller;
+    }
+
+    public static function patch(string $uri, string $controller)
+    {
+        self::$routes['PATCH'][$uri] = $controller;
     }
 
     public static function direct(Request $request)
