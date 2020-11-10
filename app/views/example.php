@@ -1,1 +1,1 @@
-<?php
+<h1>Heey! This is an <?= $title ?> page!</h1>
