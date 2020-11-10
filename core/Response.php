@@ -30,6 +30,6 @@ class Response
 
     public function json(array $data)
     {
-        return json_encode($data);
+        echo json_encode($data);
     }
 }

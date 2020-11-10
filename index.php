@@ -7,7 +7,7 @@ require_once 'vendor/autoload.php';
 require_once 'core/helper/helperFunctions.php';
 
 try {
-    echo Router::init("app/routes.php")::direct(new Request());
+    Router::init("app/routes.php")::direct(new Request());
 } catch (Exception $e) {
     echo $e->getMessage();
 }
